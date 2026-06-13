@@ -1,0 +1,26 @@
+[operation]
+mode = "snapshot"
+auto-update-interval = "7d"
+
+[user]
+name = "William Phetsinorath"
+email = "william.phetsinorath@shikanime.studio"
+
+[signing]
+backend = "gpg"
+
+[ui]
+default-command = "log"
+pager = "less -FRX"
+editor = "nvim"
+
+[git]
+auto-local-branch = true
+push-bookmark-prefix = "push-"
+
+[aliases]
+l = ["log", "-r", "(main..@):: | (..main)~@"]
+s = ["status"]
+n = ["new"]
+co = ["checkout"]
+br = ["branch"]
