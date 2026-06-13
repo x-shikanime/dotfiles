@@ -6,6 +6,10 @@ auto-update-interval = "7d"
 name = "William Phetsinorath"
 email = "william.phetsinorath@shikanime.studio"
 
+[signing]
+backend = "gpg"
+key = "EA3CE20AC83A347C"
+
 [ui]
 default-command = "log"
 pager = "less -FRX"
