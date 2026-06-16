@@ -32,4 +32,5 @@ Personal dotfiles and system configurations managed via Nix and chezmoi.
 - Require signed commits
 - Squash+rebase merge only
 
-*Test configurations with `nix build` before committing. Use chezmoi for non-Nix dotfiles*
+*Test configurations with `nix build` before committing. Use chezmoi for
+non-Nix dotfiles. Always use worktrees when making changes.*
